@@ -9,7 +9,7 @@ import javafx.scene.shape.Rectangle;
 //class definition
 class Board extends Pane {
 
-    private int winner_check = 1;
+    private int winner_check = 0;
 
     //private fields of the class
     private int boardWidth = 8;
@@ -24,7 +24,7 @@ class Board extends Pane {
 
     // constants to be inserted into the 2D board array to keep track of the location of cells containing
     // empty, red and yellow pieces
-    private final int EMPTY = 0;		// 0 is used to indicate that a cell in the board is unoccupied
+    private final int EMPTY = 0;
     private final int PlayerRed = 1;	// 1 is used to indicate that a cell in the board is occupied by a red piece
     private final int PlayerYellow = 2; // 2 is used to indicate that a cell in the board is occupied by a yellow piece
 
